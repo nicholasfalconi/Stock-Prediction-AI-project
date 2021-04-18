@@ -20,3 +20,13 @@ This function is used to perform a knn nearest neighbor model on the price of a 
 
 This function is used to perform a LSTM (Long term short memory) model on the price of a stock and uses a train and test set to get the RMSE values of the model. These values are then returned.
 
+# Instructions for use
+
+currently there is limited functionality but the steps below outline how to use the stock predictor. 
+
+1. Run the python file 
+2. Enter the stock ticker in the terminal that you want to look at
+3. Some plots will appear. The blue line shows the taining data (existing data), the red shows the testing data (acutal values for training), the purple shows the predicted values. 
+
+*A good model should have the purple line as close to the testing data as possible (Lowest RMSE).
+
